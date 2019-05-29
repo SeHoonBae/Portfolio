@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://ffe400.com/portfolio.html -->
+<html lang="ko" class=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./portfolio_files/reset.css">
+	<link rel="stylesheet" href="./portfolio_files/portfoilo.css">
+	<link rel="stylesheet" href="./portfolio_files/contents.css">
+	<link rel="stylesheet" href="./portfolio_files/jquery.fancybox.min.css">
+	<script src="./portfolio_files/jquery.min.js.다운로드"></script>
+    <script src="./portfolio_files/jquery.fancybox.min.js.다운로드"></script>
+
+	<link rel="stylesheet" href="./portfolio_files/font.css">
+
+<style type="text/css">.fancybox-margin{margin-right:17px;}</style>
+<style>
+	#p_content{
+		padding-top: 20px;
+	}
+</style>
+</head>
+
+
+<body>
+	<div class="p_wrap">
+		<div id="nnavbar" class="nnav">
+			<div class="nnav_center">
+				<a class="home" href="../home.htm">Home</a>
+				<a class="about" href="../home.htm#about">About</a>
+				<a class="active" href="portfolio.html">Portfolio</a>
+				<a href="../contact/contact.html">Contact</a>
+			</div>
+		</div>
+
+
+
+		<div class="section">
+			<div class="sec1">
+				<div class="seclinee"></div>
+				<h3 class="title">Project</h3>
+				<h4 class="s_title"> 저의 작업물을 소개합니다.</h4>
+				<p id = "p_content">프로젝트를 수행하면서 기능 구현에만 중점을 두는 것이 아닌 필요한 내용을 공부하면서 원리를 파악하여 실력 향상을 쌓기위한 토대를 만드는데 집중하였습니다.</p>
+			
+				<div class="portf_wrap">
+					<ul class="clearfix">
+						<li class="col-4">
+							<div class="ho_box" style="display: none;">
+								<div class="ho_line">
+									<p>영화관예약</p>
+									<a href="https://github.com/SeHoonBae/JavaProject1"><img src="./portfolio_files/aa.png" alt=""></a>
+								</div>
+							</div>
+						</li>
+						<li class="col-4">
+							<div class="ho_box" style="display: none;">
+								<div class="ho_line">
+									<p>학원교육시스템</p>
+									<a href="https://github.com/Chanmi-Kim/SEDU-Center"><img src="./portfolio_files/aa.png" alt=""></a>
+								</div>
+							</div>
+						</li>
+						<li class="col-4">
+							<div class="ho_box" style="display: none;">
+								<div class="ho_line">
+									<p>프로젝트3</p>
+									<a href=""><img src="./portfolio_files/aa.png" alt=""></a>
+								</div>
+							</div>
+						</li>
+						<li class="col-4">
+							<div class="ho_box" style="display: none;">
+								<div class="ho_line">
+									<p>프로젝트4</p>
+									<a href=""><img src="./portfolio_files/aa.png" alt=""></a>
+								</div>
+							</div>
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+			
+		</div>
+		<footer>
+			<div class="footer_wrap">
+				<div class="f_sec">배세훈&nbsp;&nbsp;&nbsp;TEL : 010-3778-1548<br><br> email : bey1548@naver.com<br><br>github : https://github.com/SeHoonBae</div>
+
+
+			</div>
+			<script>
+			
+				
+				 $(document).ready(function(){
+					$('.portf_wrap ul>li').hover(function(e) {
+					$(this).find('.ho_box').fadeIn();
+
+				}, function(e) {
+					$(this).find('.ho_box').fadeOut();
+				});
+    			})
+		
+
+			</script>
+
+		</footer>
+</div></body></html>
