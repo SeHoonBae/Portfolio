@@ -249,7 +249,7 @@ p.text2 {
 
 .portf_wrap ul li:nth-child(3){
 	height: 250px;
-	background-image: url(); /* 프로젝트3 배경화면 */
+	background-image: url(studentclass.jpg); /* 프로젝트3 배경화면 */
 	background-size: cover;
 	background-position: top;
 	background-repeat: no-repeat;
